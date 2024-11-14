@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Protest+Strike&display=swap');
+
+/* >>>>> HERO SECTION STYLES <<<<< */
+    .hero{
+        max-width: 100%;
+        max-height: 100vh;
+        padding: 15px;
+        color: white;
+    }
+/*  */
+
+/* >>>>> TOP SECTION STULES <<<<< */
+/*     .title h1{
+        font-size: 25rem;
+        font-family: "Protest Strike", serif;
+        font-weight: 400;
+        font-style: normal
+    }
+
+    .intro p{
+        font-family: "Host Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 30px;
+
+        padding: 10px;
+    } */
