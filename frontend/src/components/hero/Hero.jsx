@@ -4,7 +4,16 @@ import './hero.css'
 function Hero() {
   return (
     <section className='hero'>
+      <h1 className='welcome'>Welcome to SenaX Banking</h1>
 
+      <div className="intro">
+        <h2>Join us today and experience the convenience and security of modern banking at your fingertips.</h2>
+
+        <div className="links">
+          <a href="#" className='register'>REGISTER</a>
+          <a href="#" className='about'>About</a>
+        </div>
+      </div>
     </section>
   )
 }

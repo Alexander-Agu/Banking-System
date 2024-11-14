@@ -17,7 +17,7 @@ function Header() {
 
         <ul className='navList'>
           <li>
-            <label htmlFor="sidebar extra">{<IoCloseSharp />}</label>
+            <label htmlFor="sidebar" className='extra'>{<IoCloseSharp />}</label>
           </li>
 
           <li className='navItem extra'>
