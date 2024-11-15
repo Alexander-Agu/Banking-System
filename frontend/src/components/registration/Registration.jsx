@@ -2,12 +2,21 @@ import React, { useState } from 'react'
 import './registration.css'
 import Header from '../header/Header'
 
+const createAccount = (username, email, number, pin) => {
+  const userDetails = {
+    Username: username,
+    Email : email,
+    PhoneNumber: number,
+    Password: pin
+  };
+};
+
 function Registration() {
   const [name, setName] = useState("");
   const [emal, setEmail] = useState("");
   const [number, setNumber] = useState("");
   const [pin, setPin] = useState("");
-
+  
   return (
     <article className='mainRegistration'>
       {<Header />}
