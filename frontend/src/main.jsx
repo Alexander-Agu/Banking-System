@@ -1,13 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Header from './components/header/Header'
 import './style.css'
-import Hero from './components/hero/Hero'
-import Home from './components/home/Home'
-import Registration from './components/registration/Registration'
+import Header from './component/header/Header'
+import Hero from './component/hero/Hero'
+import LogIn from './component/login/LogIn'
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Registration />
+    <Header />
+    <LogIn />
   </StrictMode>,
 )
